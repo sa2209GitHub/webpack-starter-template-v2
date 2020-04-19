@@ -1,0 +1,27 @@
+{
+  "name": "webpack-starter-template-v2",
+  "version": "1.0.0",
+  "description": "Webpack Starter Template v.2",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa2209GitHub/webpack-starter-template-v2.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sa2209GitHub/webpack-starter-template-v2/issues"
+  },
+  "homepage": "https://github.com/sa2209GitHub/webpack-starter-template-v2#readme"
+}
