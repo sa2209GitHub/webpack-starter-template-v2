@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "Webpack Starter Template v.2",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "webpack": "^4.42.1"
+    "webpack-dev-server": "^3.10.3"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config=config/webpack.dev.js --open",
+    "build": "webpack --config=config/webpack.dev.js --open"
   },
   "repository": {
     "type": "git",
